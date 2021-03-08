@@ -1,6 +1,6 @@
 ## Spring Boot com JWT e Azure | [Aceleração Global Dev #6 Avanade](https://digitalinnovation.one/)
 
-Projects with JWT and other with Azure to create secure cloud environments Integrating Azure Spring Cloud with Azure Security Center.
+Projects with JWT and Azure to create secure cloud environments Integrating Azure Spring Cloud with Azure Security Center.
 
 ## 📌 Index
 - ⚙ [Settings](#-settings)
@@ -9,7 +9,7 @@ Projects with JWT and other with Azure to create secure cloud environments Integ
 ---
 
 ## ⚙ Settings
-  Have a microsoft azure [account](https://azure.microsoft.com/pt-br/free/), set up following the [steps]https://docs.microsoft.com/en-us/azure/developer/java/spring-framework/configure-spring-boot-starter-java-app-with-azure-active-directory).
+  Have a microsoft azure [account](https://azure.microsoft.com/pt-br/free/), set up following the [steps](https://docs.microsoft.com/en-us/azure/developer/java/spring-framework/configure-spring-boot-starter-java-app-with-azure-active-directory).
 
 ---
 
@@ -27,7 +27,7 @@ Projects with JWT and other with Azure to create secure cloud environments Integ
   > Cloning the repository
   ```bash
     # Cloning repository
-    git clone https://github.com/antoniosergiojr/jwt_azure_dio_avanade.git
+    git clone https://github.com/antoniosergiojr/springboot_jwt_azure_dio_avanade.git
   ```
 
   > Running web project
@@ -41,6 +41,7 @@ Projects with JWT and other with Azure to create secure cloud environments Integ
 	
 	Open file Insomnia
 	Post http://localhost:80/login
+	Now get authorization value JWT and add in the header for url /all-users
 	Get http://localhost:80/all-users
 	
 	# Accessing web project 2
