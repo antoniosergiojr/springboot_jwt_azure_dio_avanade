@@ -32,10 +32,10 @@ Projects with JWT and Azure to create secure cloud environments integrating Azur
 
   > Running web project
   ```bash
-    # Accessing web project 1
+    # Accessing web project jwt
     cd spring-boot-jwt
 
-    # Running web project 1   
+    # Running web project jwt   
     run application and then access: 
     http://localhost:80/status
 	
@@ -44,10 +44,10 @@ Projects with JWT and Azure to create secure cloud environments integrating Azur
 	Now get authorization value JWT and add in the header for url /all-users
 	Get http://localhost:80/all-users
 	
-	# Accessing web project 2
+	# Accessing web project azure
     cd spring-boot-azure
 
-    # Running web project 2   
+    # Running web project azure
     run application and then access: 
     http://localhost:8080/group1
 	http://localhost:8080/group2
