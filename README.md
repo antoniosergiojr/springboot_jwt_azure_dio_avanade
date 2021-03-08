@@ -1,6 +1,6 @@
 ## Spring Boot com JWT e Azure | [Aceleração Global Dev #6 Avanade](https://digitalinnovation.one/)
 
-Projects with JWT and Azure to create secure cloud environments Integrating Azure Spring Cloud with Azure Security Center.
+Projects with JWT and Azure to create secure cloud environments integrating Azure Spring Cloud with Azure Security Center.
 
 ## 📌 Index
 - ⚙ [Settings](#-settings)
